@@ -1,4 +1,5 @@
-import App from "./App.css";
+import React from "react";
+import "./App.css";
 
 const App = () => {
     return (

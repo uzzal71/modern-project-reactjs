@@ -1,5 +1,5 @@
-import { createStore, combineReducers } from "redux";
-import { todos } from "./todos/reducers";
+import { createStore, combineReducers } from 'redux';
+import { todos } from './todos/reducers';
 
 const reducers = {
     todos,
@@ -7,4 +7,4 @@ const reducers = {
 
 const rootReducer = combineReducers(reducers);
 
-export const configureStore = () => { createStore(rootReducer) }
+export const configureStore = () => createStore(rootReducer);

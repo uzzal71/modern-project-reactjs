@@ -17,7 +17,7 @@ const NewTodoForm = () => {
 
     return (
         <div className="new-todo-form ">
-            <input className="new-todo-input" type="text" {...inputProps}/>
+            <input className="new-todo-input" type="text" {...inputProps} placeholder="Type your new todo here"/>
             <button className="new-todo-button">Create Todo</button>
         </div>
     );

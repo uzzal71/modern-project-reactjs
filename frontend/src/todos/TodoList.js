@@ -9,7 +9,6 @@ import {
     getIncompleteTodos,
 } from './selectors';
 import { loadTodos, removeTodoRequest, markTodoAsCompletedRequest } from './thunks';
-import './TodoList.css';
 
 const ListWrapper = styled.div`
     max-width: 700px;
